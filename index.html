@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Моя WebGL Игра</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Отключает прокрутку */
+        }
+        canvas {
+            display: block; /* Убирает отступы */
+            width: 100vw; /* Заполняет всю ширину */
+            height: 100vh; /* Заполняет всю высоту */
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Убедитесь, что этот скрипт указывает на ваш сгенерированный файл.
+        var Module = {
+            // Замените 'Build/YourGameName.js' на фактическое имя вашего файла.
+            url: 'Build/YourGameName.json',
+            // Укажите другие настройки, если необходимо.
+        };
+    </script>
+    <script src="Build/YourGameName.js"></script>
+</body>
+</html>
